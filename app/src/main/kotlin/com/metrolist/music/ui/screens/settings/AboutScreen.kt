@@ -116,10 +116,10 @@ private val collaborators = listOf(
 )
 
 private val communityLinks = listOf(
-    CommunityLink(R.string.credits_discord, R.drawable.discord, "https://discord.com/invite/zrdbeRG2Mt"),
-    CommunityLink(R.string.credits_telegram, R.drawable.telegram, "https://t.me/metrolistapp"),
-    CommunityLink(R.string.credits_view_repo, R.drawable.github, "https://github.com/MetrolistGroup/Metrolist"),
-    CommunityLink(R.string.credits_license_name, R.drawable.info, "https://github.com/MetrolistGroup/Metrolist/blob/main/LICENSE")
+    CommunityLink(R.string.credits_discord, R.drawable.discord, "https://discord.gg/xmzzbNRXZd"),
+    CommunityLink(R.string.credits_telegram, R.drawable.telegram, "https://t.me/Metrolist_music"),
+    CommunityLink(R.string.credits_view_repo, R.drawable.github, "https://github.com/narutoooo-dev/Metrolist"),
+    CommunityLink(R.string.credits_license_name, R.drawable.info, "https://github.com/narutoooo-dev/Metrolist/blob/main/LICENSE")
 )
 
 private fun handleEasterEggClick(
@@ -196,13 +196,13 @@ private fun DeveloperSocials(
             Icon(painterResource(R.drawable.language), contentDescription = null)
         }
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://github.com/mostafaalagamy") },
+            onClick = { uriHandler.openUri("https://github.com/narutoooo-dev") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.github), contentDescription = null)
         }
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://www.instagram.com/mostafaalagamy") },
+            onClick = { uriHandler.openUri("https://www.instagram.com/Naruto1730") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.instagram), contentDescription = null)
@@ -389,7 +389,7 @@ fun AboutScreen(
                 Spacer(Modifier.height(16.dp))
                 
                 Button(
-                    onClick = { uriHandler.openUri("https://buymeacoffee.com/mostafaalagamy") },
+                    onClick = { uriHandler.openUri("https://buymeacoffee.com/naruto1730") },
                     modifier = Modifier.fillMaxWidth(),
                     shape = CircleShape,
                     colors = ButtonDefaults.buttonColors(
